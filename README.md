@@ -1,5 +1,5 @@
-Team name:
-Names of all team members:
+Team name: Nick's Team //
+Names of all team members: Nicholas Cichoski //
 Link to github repository:
 Which project options were attempted
 Approximately total time spent on project: 
