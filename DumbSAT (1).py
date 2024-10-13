@@ -1,4 +1,7 @@
-#                    Brute Force SAT
+#                    2SAT Solver
+
+# This code is based off of the dumbsat solver provided on the Theory of Computing canvas course page
+
 # This file generates a set of random wffs and tests each for satisfiability.
 #   The test returns "Satisfiable" or not, and the time it took to determine that.
 # A wff is expressed as a list of lists where each internal list is a clause.
