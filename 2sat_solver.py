@@ -1,26 +1,57 @@
 #!/usr/bin/env python3
 
-# need to install matplotlib
-
 # Theory of Computing 2SAT solver
+
+# This code is an optimized 2SAT solver
+# The code reads in csv files containing 2SAT problems and produces and times the output
+# using a dumbSAT algorithm (provided on Canvas) and an optimized 2SAT algorithm
+
+# To read in files you should go into the terminal and call:
+# ./2sat_solver.py problem_file.csv {0,1,2}
+# The second command line argument determines which algorithm to run
+# 0: Only run dumbSAT
+# 1: Only run optimized 2SAT solver
+# 2: Run both
+
+# At the end of each run, the code produces a plot of the time it took to solve a case vs 
+# the complexity of the problem.
+# These plots are saved as pdf files in the folder
+
+# In order to create plots you need to install the matplotlib library
+# I did this by calling "pip install matplotlib" in the terminal
 
 import time
 import sys
 import csv
 import matplotlib.pyplot as plt
 
-def plot(x,y, name):
-    plt.plot(x, y)
+def plot(x,y, name, truths):
+    colors = ['green' if truth else 'red' for truth in truths]
 
-    plt.title("Time Complexity for {name}")
+    plt.scatter(x, y, c=colors, marker='o')
+
+    plt.title(f"Time Complexity for {name}")
 
     plt.xlabel("Variables in SAT Problem")
     plt.ylabel("Time to Compute (microseconds)")
 
+    plt.savefig(f"graphs/{name}_time_complexity_plot.pdf", format='pdf')
+
     plt.show()
 
-def plot_both(x,y):
-    pass
+def plot_both(x,y1, y2):
+    fig, ax = plt.subplots()
+
+    ax.scatter(x, y2, label='DumbSAT', marker='s')
+    ax.scatter(x, y1, label='DPLL', marker='^')
+
+    ax.set_xlabel('Variables in SAT Problem')
+    ax.set_ylabel('Time to Compute (microseconds)')
+    ax.set_title('Time Complexity for DumbSAT v DPLL')
+    ax.legend()
+
+    plt.savefig(f"graphs/both_time_complexity_plot.pdf", format='pdf')
+    plt.show()
 
 def DPLL_check(Wff, solution):
     for pair in Wff:
@@ -128,6 +159,7 @@ def main():
     vars = []
     time_reg = []
     time_dp = []
+    truths = []
 
     for key, wff in wffs.items():
         nvars = int(wff[1][2])
@@ -137,59 +169,64 @@ def main():
         data = [row[:2] for row in data]
         data = [list(map(int, row)) for row in data]
 
-        match mode:
-            case 0:
-                output = test_wff(data, nvars, nclauses)
-                print(f"Is {key} satisfiable? {'Yes' if output[2] else 'No'}")
-                if output[2]:
-                    print(f'Solution: {output[1][1:-1]}')
-                else:
-                    print(f'Solution: None')
-                print(f'Time: {output[3]}')
 
-                reg_time += output[3]
-                vars.append(nvars)
-                time_reg.append(output[3])
+        if mode  == 0:
+            output = test_wff(data, nvars, nclauses)
+            print(f"Is {key} satisfiable? {'Yes' if output[2] else 'No'}")
+            if output[2]:
+                print(f'Solution: {output[1][1:-1]}')
+            else:
+                print(f'Solution: None')
+            print(f'Time: {output[3]}')
 
-            case 1:
-                output_DPLL = test_wff_DPLL(data, nvars, nclauses)
-                print(f"Is {key} satisfiable? {'Yes' if output_DPLL[2] else 'No'}")
-                if output_DPLL[2]:
-                    print(f'Solution: {output_DPLL[1]}')
-                else:
-                    print(f'Solution: None')
-                print(f'Time: {output_DPLL[3]}')
+            reg_time += output[3]
+            vars.append(nvars)
+            time_reg.append(output[3])
+            truths.append(output[2])
 
-                dp_time += output_DPLL[3]
-                vars.append(nvars)
-                time_dp.append(output_DPLL[3])
+        elif mode == 1:
+            output_DPLL = test_wff_DPLL(data, nvars, nclauses)
+            print(f"Is {key} satisfiable? {'Yes' if output_DPLL[2] else 'No'}")
+            if output_DPLL[2]:
+                print(f'Solution: {output_DPLL[1]}')
+            else:
+                print(f'Solution: None')
+            print(f'Time: {output_DPLL[3]}')
 
-            case 2:
-                issues = []
-                output = test_wff(data, nvars, nclauses)
-                output_DPLL = test_wff_DPLL(data, nvars, nclauses)
-                reg_time += output[3]
-                dp_time += output_DPLL[3]
-                if (output[2] != output_DPLL[2]):
-                    issues.append((output, output_DPLL))
-                print(f'{key} of {len(wffs)}:\n')
-                print(f'DumbSAT Output: {output[2]} \t DPLL Output: {output_DPLL[2]}\n')
-                print(f'DumbSAT Time: {output[3]} \t DPLL Time: {output_DPLL[3]}\n')
+            dp_time += output_DPLL[3]
+            vars.append(nvars)
+            time_dp.append(output_DPLL[3])
+            truths.append(output_DPLL[2])
 
-                vars.append(nvars)
-                time_dp.append(output_DPLL[3])
-                time_reg.append(output[3])
+        elif mode == 2:
+            issues = []
+            output = test_wff(data, nvars, nclauses)
+            output_DPLL = test_wff_DPLL(data, nvars, nclauses)
+            reg_time += output[3]
+            dp_time += output_DPLL[3]
+            if (output[2] != output_DPLL[2]):
+                issues.append((output, output_DPLL))
+            print(f'{key} of {len(wffs)}:\n')
+            print(f'DumbSAT Output: {output[2]} \t DPLL Output: {output_DPLL[2]}\n')
+            print(f'DumbSAT Time: {output[3]} \t DPLL Time: {output_DPLL[3]}\n')
 
-    match mode:
-        case 0:
-            print(f'DumbSAT Total Time: {reg_time}')
-            plot(vars, time_reg, "DumbSAT")
-        case 1:
-            print(f'DPLL Total Time: {dp_time}')
-            plot(vars, time_dp, "DPLL")
-        case 2:
-            print(f'DumbSAT Total Timae: {reg_time} \t DPLL Total Time: {dp_time}\n')
-            print(f'Conflicting Outputs: {issues}')
+            vars.append(nvars)
+            time_dp.append(output_DPLL[3])
+            time_reg.append(output[3])
+
+
+    if mode == 0:
+        print(f'DumbSAT Total Time: {reg_time}')
+        name = "DumbSAT"
+        plot(vars, time_reg, name, truths)
+    elif mode == 1:
+        print(f'DPLL Total Time: {dp_time}')
+        name = "DPLL"
+        plot(vars, time_dp, name, truths)
+    elif mode == 2:
+        print(f'DumbSAT Total Timae: {reg_time} \t DPLL Total Time: {dp_time}\n')
+        print(f'Conflicting Outputs: {issues}')
+        plot_both(vars, time_dp, time_reg)
 
     return 0
 
