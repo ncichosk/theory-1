@@ -1,0 +1,402 @@
+wff_1 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 10 	 DPLL Time (microseconds): 34
+
+wff_2 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 52 	 DPLL Time (microseconds): 21
+
+wff_3 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 28 	 DPLL Time (microseconds): 26
+
+wff_4 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 37 	 DPLL Time (microseconds): 39
+
+wff_5 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 39 	 DPLL Time (microseconds): 4
+
+wff_6 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 31 	 DPLL Time (microseconds): 26
+
+wff_7 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 58 	 DPLL Time (microseconds): 45
+
+wff_8 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 18 	 DPLL Time (microseconds): 31
+
+wff_9 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 27 	 DPLL Time (microseconds): 30
+
+wff_10 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 16 	 DPLL Time (microseconds): 46
+
+wff_11 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 391 	 DPLL Time (microseconds): 104
+
+wff_12 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 198 	 DPLL Time (microseconds): 109
+
+wff_13 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 657 	 DPLL Time (microseconds): 193
+
+wff_14 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 643 	 DPLL Time (microseconds): 409
+
+wff_15 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 781 	 DPLL Time (microseconds): 557
+
+wff_16 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 663 	 DPLL Time (microseconds): 219
+
+wff_17 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 997 	 DPLL Time (microseconds): 867
+
+wff_18 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 321 	 DPLL Time (microseconds): 324
+
+wff_19 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 13 	 DPLL Time (microseconds): 78
+
+wff_20 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 613 	 DPLL Time (microseconds): 108
+
+wff_21 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 11322 	 DPLL Time (microseconds): 1033
+
+wff_22 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 4644 	 DPLL Time (microseconds): 139
+
+wff_23 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 5546 	 DPLL Time (microseconds): 1712
+
+wff_24 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 172 	 DPLL Time (microseconds): 118
+
+wff_25 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 8349 	 DPLL Time (microseconds): 978
+
+wff_26 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 11785 	 DPLL Time (microseconds): 1405
+
+wff_27 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 12705 	 DPLL Time (microseconds): 963
+
+wff_28 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 11197 	 DPLL Time (microseconds): 1598
+
+wff_29 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 11378 	 DPLL Time (microseconds): 344
+
+wff_30 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 12880 	 DPLL Time (microseconds): 777
+
+wff_31 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 135696 	 DPLL Time (microseconds): 914
+
+wff_32 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 170911 	 DPLL Time (microseconds): 2312
+
+wff_33 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 17171 	 DPLL Time (microseconds): 6257
+
+wff_34 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 5792 	 DPLL Time (microseconds): 4668
+
+wff_35 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 187194 	 DPLL Time (microseconds): 7427
+
+wff_36 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 64956 	 DPLL Time (microseconds): 516
+
+wff_37 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 209877 	 DPLL Time (microseconds): 3126
+
+wff_38 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 29205 	 DPLL Time (microseconds): 375
+
+wff_39 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 203150 	 DPLL Time (microseconds): 6512
+
+wff_40 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 102705 	 DPLL Time (microseconds): 237
+
+wff_41 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 891438 	 DPLL Time (microseconds): 7202
+
+wff_42 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 958333 	 DPLL Time (microseconds): 44898
+
+wff_43 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 741256 	 DPLL Time (microseconds): 3297
+
+wff_44 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 395079 	 DPLL Time (microseconds): 306
+
+wff_45 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 846634 	 DPLL Time (microseconds): 7268
+
+wff_46 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 125401 	 DPLL Time (microseconds): 3036
+
+wff_47 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 575 	 DPLL Time (microseconds): 4259
+
+wff_48 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 739341 	 DPLL Time (microseconds): 16461
+
+wff_49 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 5234 	 DPLL Time (microseconds): 3056
+
+wff_50 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 810914 	 DPLL Time (microseconds): 3063
+
+wff_51 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 3624431 	 DPLL Time (microseconds): 44750
+
+wff_52 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 117371 	 DPLL Time (microseconds): 387
+
+wff_53 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 2547283 	 DPLL Time (microseconds): 8987
+
+wff_54 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 2831602 	 DPLL Time (microseconds): 13265
+
+wff_55 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 3035014 	 DPLL Time (microseconds): 24006
+
+wff_56 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 2491283 	 DPLL Time (microseconds): 5726
+
+wff_57 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 3291941 	 DPLL Time (microseconds): 6934
+
+wff_58 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 323696 	 DPLL Time (microseconds): 3346
+
+wff_59 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 3186463 	 DPLL Time (microseconds): 8627
+
+wff_60 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 3187140 	 DPLL Time (microseconds): 122814
+
+wff_61 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 29170 	 DPLL Time (microseconds): 28862
+
+wff_62 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 7442734 	 DPLL Time (microseconds): 59128
+
+wff_63 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 12112246 	 DPLL Time (microseconds): 42809
+
+wff_64 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 7263835 	 DPLL Time (microseconds): 1621
+
+wff_65 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 7713189 	 DPLL Time (microseconds): 3694
+
+wff_66 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 1607770 	 DPLL Time (microseconds): 4978
+
+wff_67 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 13716068 	 DPLL Time (microseconds): 68099
+
+wff_68 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 11693453 	 DPLL Time (microseconds): 22841
+
+wff_69 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 5521612 	 DPLL Time (microseconds): 45379
+
+wff_70 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 12859940 	 DPLL Time (microseconds): 1961
+
+wff_71 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 52633084 	 DPLL Time (microseconds): 101440
+
+wff_72 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 78224 	 DPLL Time (microseconds): 13739
+
+wff_73 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 4710418 	 DPLL Time (microseconds): 3758
+
+wff_74 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 51830209 	 DPLL Time (microseconds): 37845
+
+wff_75 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 50408668 	 DPLL Time (microseconds): 20247
+
+wff_76 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 48290518 	 DPLL Time (microseconds): 53689
+
+wff_77 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 16319 	 DPLL Time (microseconds): 20174
+
+wff_78 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 52724790 	 DPLL Time (microseconds): 121421
+
+wff_79 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 27845313 	 DPLL Time (microseconds): 12248
+
+wff_80 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 13164877 	 DPLL Time (microseconds): 40102
+
+wff_81 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 157285700 	 DPLL Time (microseconds): 740492
+
+wff_82 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 7427243 	 DPLL Time (microseconds): 33315
+
+wff_83 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 203711079 	 DPLL Time (microseconds): 82806
+
+wff_84 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 202504122 	 DPLL Time (microseconds): 19201
+
+wff_85 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 208002027 	 DPLL Time (microseconds): 364814
+
+wff_86 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 239876127 	 DPLL Time (microseconds): 85157
+
+wff_87 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 6668574 	 DPLL Time (microseconds): 167865
+
+wff_88 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 141898806 	 DPLL Time (microseconds): 4871
+
+wff_89 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 220909197 	 DPLL Time (microseconds): 357533
+
+wff_90 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 134003961 	 DPLL Time (microseconds): 786
+
+wff_91 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 1134191126 	 DPLL Time (microseconds): 293240
+
+wff_92 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 305787046 	 DPLL Time (microseconds): 25493
+
+wff_93 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 1066900930 	 DPLL Time (microseconds): 624124
+
+wff_94 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 19933064060 	 DPLL Time (microseconds): 381170
+
+wff_95 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 16892000614 	 DPLL Time (microseconds): 162209
+
+wff_96 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 25405666043 	 DPLL Time (microseconds): 17357
+
+wff_97 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 14979949 	 DPLL Time (microseconds): 598
+
+wff_98 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 9261534158 	 DPLL Time (microseconds): 22675
+
+wff_99 of 100:
+DumbSAT Output: False 	 DPLL Output: False
+DumbSAT Time (microseconds): 7491692732 	 DPLL Time (microseconds): 182609
+
+wff_100 of 100:
+DumbSAT Output: True 	 DPLL Output: True
+DumbSAT Time (microseconds): 10200865 	 DPLL Time (microseconds): 92382
+
+DumbSAT Total Time (microseconds): 83451339453 	 DPLL Total Time (microseconds): 4739101
+Conflicting Outputs: []

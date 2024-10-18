@@ -12,7 +12,7 @@ def plot(x,y, name, truths):
     plt.xlabel("Variables in SAT Problem")
     plt.ylabel("Time to Compute (microseconds)")
 
-    plt.savefig(f"../Graphs/{name}_time_complexity_plot.pdf", format='pdf')
+    plt.savefig(f"../Graphs/plot_{name}_time_complexity.pdf", format='pdf')
 
     plt.show()
 
@@ -27,5 +27,5 @@ def plot_both(x,y1, y2):
     ax.set_title('Time Complexity for DumbSAT v DPLL')
     ax.legend()
 
-    plt.savefig(f"../Graphs/both_time_complexity_plot.pdf", format='pdf')
+    plt.savefig(f"../Graphs/plot_both_time_complexity.pdf", format='pdf')
     plt.show()

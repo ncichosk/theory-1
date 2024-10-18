@@ -1,4 +1,4 @@
-Team name: Nick's Team \\
+Team name: nick \\
 Names of all team members: Nicholas Cichoski \\
 Link to github repository: https://github.com/ncichosk/theory-1 \\
 Which project options were attempted: Implementing a polynomial time 2-SAT solver \\

@@ -22,8 +22,8 @@
 
 import sys
 import csv
-from graph import plot, plot_both
-from solve_functions import test_wff, test_wff_DPLL
+from graph_nick import plot, plot_both
+from solve_functions_nick import test_wff, test_wff_DPLL
 
 def main():
     wffs = {}  
@@ -52,11 +52,11 @@ def main():
     truths = []
 
     if mode == 0:
-        outfile_path = '../Output/dumbSAT_output.txt'
+        outfile_path = '../Output/output_dumbSAT_nick.txt'
     elif mode == 1:
-        outfile_path = '../Output/2SAT_output.txt'
+        outfile_path = '../Output/output_2SAT_nick.txt'
     elif mode == 2:
-        outfile_path = '../Output/both_output.txt'
+        outfile_path = '../Output/output_both_nick.txt'
 
     with open(outfile_path, 'w') as outfile:
         for key, wff in wffs.items():
@@ -114,15 +114,15 @@ def main():
 
 
         if mode == 0:
-            outfile.write(f'\nDumbSAT Total Time (microseconds): {reg_time}')
+            outfile.write(f'DumbSAT Total Time (microseconds): {reg_time}')
             name = "DumbSAT"
             plot(vars, time_reg, name, truths)
         elif mode == 1:
-            outfile.write(f'\nDPLL Total Time (microseconds): {dp_time}')
+            outfile.write(f'DPLL Total Time (microseconds): {dp_time}')
             name = "DPLL"
             plot(vars, time_dp, name, truths)
         elif mode == 2:
-            outfile.write(f'\nDumbSAT Total Time (microseconds): {reg_time} \t DPLL Total Time (microseconds): {dp_time}\n')
+            outfile.write(f'DumbSAT Total Time (microseconds): {reg_time} \t DPLL Total Time (microseconds): {dp_time}\n')
             outfile.write(f'Conflicting Outputs: {issues}')
             plot_both(vars, time_dp, time_reg)
 
