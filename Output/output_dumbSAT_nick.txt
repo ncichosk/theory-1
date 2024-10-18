@@ -1,401 +1,401 @@
 Is wff_1 satisfiable? Yes
 Solution: [1, 0, 0, 0]
-Time (microseconds): 10
+Time (microseconds): 6
 
 Is wff_2 satisfiable? No
 Solution: None
-Time (microseconds): 53
+Time (microseconds): 30
 
 Is wff_3 satisfiable? Yes
 Solution: [1, 1, 1, 0]
-Time (microseconds): 27
+Time (microseconds): 16
 
 Is wff_4 satisfiable? Yes
 Solution: [0, 1, 0, 1]
-Time (microseconds): 37
+Time (microseconds): 21
 
 Is wff_5 satisfiable? No
 Solution: None
-Time (microseconds): 41
+Time (microseconds): 23
 
 Is wff_6 satisfiable? No
 Solution: None
-Time (microseconds): 32
+Time (microseconds): 18
 
 Is wff_7 satisfiable? No
 Solution: None
-Time (microseconds): 58
+Time (microseconds): 33
 
 Is wff_8 satisfiable? Yes
 Solution: [0, 0, 1, 0]
-Time (microseconds): 17
+Time (microseconds): 11
 
 Is wff_9 satisfiable? Yes
 Solution: [0, 0, 0, 1]
-Time (microseconds): 28
+Time (microseconds): 16
 
 Is wff_10 satisfiable? Yes
 Solution: [0, 1, 0, 0]
-Time (microseconds): 15
+Time (microseconds): 9
 
 Is wff_11 satisfiable? Yes
 Solution: [1, 0, 0, 0, 0, 0, 0, 1]
-Time (microseconds): 395
+Time (microseconds): 225
 
 Is wff_12 satisfiable? Yes
 Solution: [1, 1, 0, 1, 0, 0, 1, 0]
-Time (microseconds): 201
+Time (microseconds): 119
 
 Is wff_13 satisfiable? Yes
 Solution: [0, 1, 1, 0, 1, 0, 1, 1]
-Time (microseconds): 730
+Time (microseconds): 382
 
 Is wff_14 satisfiable? No
 Solution: None
-Time (microseconds): 695
+Time (microseconds): 375
 
 Is wff_15 satisfiable? No
 Solution: None
-Time (microseconds): 791
+Time (microseconds): 450
 
 Is wff_16 satisfiable? No
 Solution: None
-Time (microseconds): 670
+Time (microseconds): 381
 
 Is wff_17 satisfiable? No
 Solution: None
-Time (microseconds): 1030
+Time (microseconds): 578
 
 Is wff_18 satisfiable? Yes
 Solution: [1, 0, 1, 0, 0, 1, 1, 0]
-Time (microseconds): 328
+Time (microseconds): 186
 
 Is wff_19 satisfiable? Yes
 Solution: [1, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 13
+Time (microseconds): 7
 
 Is wff_20 satisfiable? No
 Solution: None
-Time (microseconds): 625
+Time (microseconds): 357
 
 Is wff_21 satisfiable? No
 Solution: None
-Time (microseconds): 11914
+Time (microseconds): 6603
 
 Is wff_22 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0]
-Time (microseconds): 4764
+Time (microseconds): 2767
 
 Is wff_23 satisfiable? Yes
 Solution: [1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
-Time (microseconds): 5965
+Time (microseconds): 3242
 
 Is wff_24 satisfiable? Yes
 Solution: [1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 178
+Time (microseconds): 103
 
 Is wff_25 satisfiable? Yes
 Solution: [1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1]
-Time (microseconds): 8522
+Time (microseconds): 4850
 
 Is wff_26 satisfiable? Yes
 Solution: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1]
-Time (microseconds): 12256
+Time (microseconds): 6841
 
 Is wff_27 satisfiable? No
 Solution: None
-Time (microseconds): 12941
+Time (microseconds): 7565
 
 Is wff_28 satisfiable? No
 Solution: None
-Time (microseconds): 11512
+Time (microseconds): 6690
 
 Is wff_29 satisfiable? No
 Solution: None
-Time (microseconds): 11659
+Time (microseconds): 6783
 
 Is wff_30 satisfiable? No
 Solution: None
-Time (microseconds): 13211
+Time (microseconds): 7682
 
 Is wff_31 satisfiable? Yes
 Solution: [0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1]
-Time (microseconds): 136496
+Time (microseconds): 79287
 
 Is wff_32 satisfiable? No
 Solution: None
-Time (microseconds): 174505
+Time (microseconds): 102452
 
 Is wff_33 satisfiable? Yes
 Solution: [0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]
-Time (microseconds): 17444
+Time (microseconds): 10549
 
 Is wff_34 satisfiable? Yes
 Solution: [1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
-Time (microseconds): 5848
+Time (microseconds): 3514
 
 Is wff_35 satisfiable? No
 Solution: None
-Time (microseconds): 189592
+Time (microseconds): 112039
 
 Is wff_36 satisfiable? Yes
 Solution: [0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0]
-Time (microseconds): 64846
+Time (microseconds): 38028
 
 Is wff_37 satisfiable? No
 Solution: None
-Time (microseconds): 212179
+Time (microseconds): 125715
 
 Is wff_38 satisfiable? Yes
 Solution: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
-Time (microseconds): 29525
+Time (microseconds): 17096
 
 Is wff_39 satisfiable? No
 Solution: None
-Time (microseconds): 204544
+Time (microseconds): 120028
 
 Is wff_40 satisfiable? Yes
 Solution: [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1]
-Time (microseconds): 104015
+Time (microseconds): 61838
 
 Is wff_41 satisfiable? No
 Solution: None
-Time (microseconds): 905838
+Time (microseconds): 538930
 
 Is wff_42 satisfiable? No
 Solution: None
-Time (microseconds): 970557
+Time (microseconds): 569897
 
 Is wff_43 satisfiable? No
 Solution: None
-Time (microseconds): 744468
+Time (microseconds): 437887
 
 Is wff_44 satisfiable? Yes
 Solution: [1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1]
-Time (microseconds): 405860
+Time (microseconds): 236690
 
 Is wff_45 satisfiable? No
 Solution: None
-Time (microseconds): 860271
+Time (microseconds): 507205
 
 Is wff_46 satisfiable? Yes
 Solution: [1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0]
-Time (microseconds): 126626
+Time (microseconds): 74274
 
 Is wff_47 satisfiable? Yes
 Solution: [1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 586
+Time (microseconds): 339
 
 Is wff_48 satisfiable? No
 Solution: None
-Time (microseconds): 751537
+Time (microseconds): 442594
 
 Is wff_49 satisfiable? Yes
 Solution: [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 5353
+Time (microseconds): 3157
 
 Is wff_50 satisfiable? No
 Solution: None
-Time (microseconds): 822366
+Time (microseconds): 485168
 
 Is wff_51 satisfiable? No
 Solution: None
-Time (microseconds): 3676059
+Time (microseconds): 2236361
 
 Is wff_52 satisfiable? Yes
 Solution: [1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
-Time (microseconds): 119433
+Time (microseconds): 70278
 
 Is wff_53 satisfiable? Yes
 Solution: [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1]
-Time (microseconds): 2483458
+Time (microseconds): 1468842
 
 Is wff_54 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1]
-Time (microseconds): 2815563
+Time (microseconds): 1650378
 
 Is wff_55 satisfiable? No
 Solution: None
-Time (microseconds): 3222650
+Time (microseconds): 1779353
 
 Is wff_56 satisfiable? No
 Solution: None
-Time (microseconds): 2532066
+Time (microseconds): 1525856
 
 Is wff_57 satisfiable? No
 Solution: None
-Time (microseconds): 3256365
+Time (microseconds): 1965323
 
 Is wff_58 satisfiable? Yes
 Solution: [0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
-Time (microseconds): 327209
+Time (microseconds): 199081
 
 Is wff_59 satisfiable? No
 Solution: None
-Time (microseconds): 3269022
+Time (microseconds): 1912571
 
 Is wff_60 satisfiable? No
 Solution: None
-Time (microseconds): 3317288
+Time (microseconds): 1911741
 
 Is wff_61 satisfiable? Yes
 Solution: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 29858
+Time (microseconds): 17402
 
 Is wff_62 satisfiable? Yes
 Solution: [1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1]
-Time (microseconds): 8054596
+Time (microseconds): 4493167
 
 Is wff_63 satisfiable? No
 Solution: None
-Time (microseconds): 12080198
+Time (microseconds): 7254469
 
 Is wff_64 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1]
-Time (microseconds): 7170027
+Time (microseconds): 4291418
 
 Is wff_65 satisfiable? Yes
 Solution: [0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]
-Time (microseconds): 7732135
+Time (microseconds): 4635938
 
 Is wff_66 satisfiable? Yes
 Solution: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
-Time (microseconds): 1627561
+Time (microseconds): 972026
 
 Is wff_67 satisfiable? No
 Solution: None
-Time (microseconds): 13801546
+Time (microseconds): 8238861
 
 Is wff_68 satisfiable? No
 Solution: None
-Time (microseconds): 12917011
+Time (microseconds): 7106478
 
 Is wff_69 satisfiable? Yes
 Solution: [0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0]
-Time (microseconds): 5787813
+Time (microseconds): 3386229
 
 Is wff_70 satisfiable? No
 Solution: None
-Time (microseconds): 13714447
+Time (microseconds): 7861820
 
 Is wff_71 satisfiable? No
 Solution: None
-Time (microseconds): 54231513
+Time (microseconds): 32068890
 
 Is wff_72 satisfiable? Yes
 Solution: [0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 79734
+Time (microseconds): 47115
 
 Is wff_73 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0]
-Time (microseconds): 4820133
+Time (microseconds): 2874061
 
 Is wff_74 satisfiable? No
 Solution: None
-Time (microseconds): 53926663
+Time (microseconds): 31756463
 
 Is wff_75 satisfiable? No
 Solution: None
-Time (microseconds): 51301767
+Time (microseconds): 30589460
 
 Is wff_76 satisfiable? No
 Solution: None
-Time (microseconds): 49598076
+Time (microseconds): 29478511
 
 Is wff_77 satisfiable? Yes
 Solution: [0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Time (microseconds): 16610
+Time (microseconds): 9752
 
 Is wff_78 satisfiable? No
 Solution: None
-Time (microseconds): 5194260233
+Time (microseconds): 31409808
 
 Is wff_79 satisfiable? Yes
 Solution: [1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1]
-Time (microseconds): 1667146770
+Time (microseconds): 16608669
 
 Is wff_80 satisfiable? Yes
 Solution: [0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0]
-Time (microseconds): 2946172842
+Time (microseconds): 7854334
 
 Is wff_81 satisfiable? No
 Solution: None
-Time (microseconds): 19707299939
+Time (microseconds): 96485687
 
 Is wff_82 satisfiable? Yes
 Solution: [1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
-Time (microseconds): 321036058
+Time (microseconds): 4703414
 
 Is wff_83 satisfiable? No
 Solution: None
-Time (microseconds): 211719240
+Time (microseconds): 123068419
 
 Is wff_84 satisfiable? No
 Solution: None
-Time (microseconds): 204767690
+Time (microseconds): 120642877
 
 Is wff_85 satisfiable? No
 Solution: None
-Time (microseconds): 215479176
+Time (microseconds): 127378143
 
 Is wff_86 satisfiable? No
 Solution: None
-Time (microseconds): 213194805
+Time (microseconds): 127036180
 
 Is wff_87 satisfiable? Yes
 Solution: [1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
-Time (microseconds): 6879781
+Time (microseconds): 3994704
 
 Is wff_88 satisfiable? Yes
 Solution: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1]
-Time (microseconds): 115562399
+Time (microseconds): 67551603
 
 Is wff_89 satisfiable? No
 Solution: None
-Time (microseconds): 228483402
+Time (microseconds): 132196666
 
 Is wff_90 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
-Time (microseconds): 143628313
+Time (microseconds): 81298480
 
 Is wff_91 satisfiable? No
 Solution: None
-Time (microseconds): 889084378
+Time (microseconds): 518792484
 
 Is wff_92 satisfiable? Yes
 Solution: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0]
-Time (microseconds): 316869612
+Time (microseconds): 183056947
 
 Is wff_93 satisfiable? No
 Solution: None
-Time (microseconds): 11492085506
+Time (microseconds): 572287754
 
 Is wff_94 satisfiable? No
 Solution: None
-Time (microseconds): 794267369
+Time (microseconds): 471653909
 
 Is wff_95 satisfiable? No
 Solution: None
-Time (microseconds): 1638031006
+Time (microseconds): 470370481
 
 Is wff_96 satisfiable? Yes
 Solution: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]
-Time (microseconds): 407071268
+Time (microseconds): 169208849
 
 Is wff_97 satisfiable? Yes
 Solution: [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
-Time (microseconds): 15239504
+Time (microseconds): 9134048
 
 Is wff_98 satisfiable? Yes
 Solution: [1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0]
-Time (microseconds): 200639962
+Time (microseconds): 120067255
 
 Is wff_99 satisfiable? No
 Solution: None
-Time (microseconds): 2077564069
+Time (microseconds): 524052610
 
 Is wff_100 satisfiable? Yes
 Solution: [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
-Time (microseconds): 17817878
+Time (microseconds): 9460395
 
-DumbSAT Total Time (microseconds): 49353041175
+DumbSAT Total Time (microseconds): 4182138616
