@@ -117,7 +117,7 @@ def main():
         # Graphing portion - calls different graphs based on mode
         if mode == 0:
             outfile.write(f'DumbSAT Total Time (microseconds): {reg_time}')
-            name = "DumbSAT"
+            name = "dumbSAT"
             plot(vars, time_reg, name, truths) # Plots dumbSAT results
         elif mode == 1:
             outfile.write(f'DPLL Total Time (microseconds): {dp_time}')
